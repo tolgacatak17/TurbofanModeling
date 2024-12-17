@@ -29,7 +29,7 @@ The constants are defined as follows:
   <img src="https://github.com/user-attachments/assets/0a1329e0-cd81-4795-8253-c1b6b4fd5a3f" alt="Constants" width="500">
 </p>
 
-Using the \(k\) and \(c_p\) values, the \(R\) values are calculated as follows:
+Using the k and c<sub>p</sub> values, the R values are calculated as follows:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/18b93087-21e9-46c4-ba93-aa72ce5c96d9" alt="Gas Constant Calculation" width="400">
@@ -76,7 +76,7 @@ In this section, the governing equations and relationships for a turbofan and it
     <img src="https://github.com/user-attachments/assets/77d794b7-344b-4536-8ee1-7130d00634d9" alt="Hot Stream Pressure" width="400">
   </p>
 
-- In this context, \( \text{poly,comp} \) represents the polytropic compression efficiency, which is defined as:
+- In this context, (poly,comp) represents the polytropic compression efficiency, which is defined as:
   <p align="center">
     <img src="https://github.com/user-attachments/assets/5584c431-452e-47ce-8eb7-28ab9ab590bc" alt="Polytropic Compression" width="400">
   </p>
@@ -101,6 +101,11 @@ In this section, the governing equations and relationships for a turbofan and it
 - The stagnation pressures after the turbines are given by:
   <p align="center">
     <img src="https://github.com/user-attachments/assets/4fd1ad93-1f73-47c1-ab45-46222ed6f1a7" alt="Turbine Stagnation Pressure 1" width="400">
+  </p>
+
+- In this context, (poly,comp) represents the polytropic compression efficiency, which is defined as:
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/9ba27e31-cf33-4294-b65b-e298c5a9f945" alt="Polytropic Expansion" width="400">
   </p>
 
 ---
@@ -187,7 +192,7 @@ In this section, the governing equations and relationships for a turbofan and it
     <img src="https://github.com/user-attachments/assets/57739f54-504f-44ab-9590-6178914c08ad" alt="Momentum Balance" width="400">
   </p>
 
-- Different values of Mach numbers for the mixture are iterated to determine the correct values of \(p_m\) and \(C_m\) until momentum balance is achieved. Initially, a guess is made for the Mach number, and then the static temperature, pressure, and velocity of the mixture are computed:
+- Different values of Mach numbers for the mixture are iterated to determine the correct values of p<sub>m</sub> and C<sub>m</sub> until momentum balance is achieved. Initially, a guess is made for the Mach number, and then the static temperature, pressure, and velocity of the mixture are computed:
   <p align="center">
     <img src="https://github.com/user-attachments/assets/7f6bef56-9104-46af-942e-a06736c8a233" alt="Static Temperature" width="400">
   </p>
