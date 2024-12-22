@@ -36,6 +36,21 @@ Using the k and c<sub>p</sub> values, the R values are calculated as follows:
 </p>
 
 ---
+## Task
+
+The goal of this project is to calculate the specific thrust developed by a turbofan engine under specified cruise conditions and to determine the relevant area ratios. The project involves the following steps:
+
+**Program Development**:
+   Using the given parameters:
+   
+   - Write a MATLAB program to calculate the specific thrust for the given turbofan engine data.
+   - Implement calculations considering a Mach number of 0.5 at state 6.
+   - Include functionality to compute relevant area ratios within the MATLAB program.
+
+This project combines thermodynamic principles with computational modeling, enabling the analysis of turbofan performance under specified operating conditions.
+
+
+---
 
 ## Mathematical Model
 
@@ -242,4 +257,12 @@ In this section, the governing equations and relationships for a turbofan and it
     <img src="https://github.com/user-attachments/assets/6f6bb1a8-0a75-4f33-8792-1630bddf356f" alt="Specific Thrust" width="400">
   </p>
 
+---
 
+## Repository Structure
+
+1. **`code/`**: Contains MATLAB scripts for modeling and analyzing the turbofan system, including the calculation of thermodynamic states, efficiencies, and performance metrics.
+
+2. **`report/`**: Contains the detailed report explaining the turbofan modeling process, mathematical formulations, and analysis of the results.
+
+3. **`README.md`**: Provides an overview of the project, objectives, and instructions for running the MATLAB scripts and interpreting the results.
