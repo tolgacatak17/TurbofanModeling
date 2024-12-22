@@ -261,6 +261,8 @@ In this section, the governing equations and relationships for a turbofan and it
 
 ## Repository Structure
 
+This repository is organized as follows:
+
 1. **`code/`**: Contains MATLAB scripts for modeling and analyzing the turbofan system, including the calculation of thermodynamic states, efficiencies, and performance metrics.
 
 2. **`report/`**: Contains the detailed report explaining the turbofan modeling process, mathematical formulations, and analysis of the results.
